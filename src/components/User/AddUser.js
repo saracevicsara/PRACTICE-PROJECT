@@ -6,7 +6,7 @@ const AddUser = (props) => {
     event.preventDefault();
   };
   return (
-    <Card className="input">
+    <Card className={"input"}>
       <form onSubmit={addUserHandler}>
         <label htmlFor="username">UserInput</label>
         <input id="username" type="text"></input>
